@@ -26,23 +26,6 @@ This project addresses this gap by:
 
 ---
 
-## Project Structure
-accident-predictor/
-│
-├── train_model.py # Model training and evaluation script
-├── streamlit_app.py # Streamlit web application
-├── requirements.txt # Python dependencies
-├── models/ # Saved models and artifacts
-│ ├── accident_model_.pkl
-│ └── feature_importance_.csv
-├── Data/
-│ └── accident_clean_data.csv
-├── notebooks/
-│ ├── preprocessing.ipynb
-│ └── eda.ipynb
-└── README.md
-
----
 
 ## Machine Learning Approach
 - **Problem Type:** Binary classification  
@@ -70,7 +53,7 @@ The application uses a **pre-trained model** and does not perform retraining dur
 
 ### 1. Install Dependencies
 ```bash
-pip install -r requirements.txt
+pip install -r dependencies/requirements.txt
 ```
 
 2. Run the Streamlit App
